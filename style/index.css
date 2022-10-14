@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../media/sign_up_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center center;
+    color:white;
+    overflow: hidden;
+    
+}
+.wrapper{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+text-align:center;
+min-height: 100vh;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.741);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 40px;
+}
+.content .heading h1{
+ font-size:20px;
+ padding:10px;
+}
+.content .heading img{
+    width:300px;
+    height:100%;
+}
+.form{
+    text-align: center;
+}
+.input-group {
+    width:300px;
+}
+.input-group .label{
+    float:left;
+}
+.input-group label{
+    font-size: 14px;
+}
+.input-group input{
+    background-color: rgba(0, 0, 0, 0);
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.474);
+    color:white;
+    font-size:14px;
+}
+.input-group input:focus{
+    outline: none;
+    border-bottom: 1px solid #3183ff;
+    transition-duration: 0.4s;
+}
+.btn{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.btn input{
+    margin-top: 10%;
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    color:white;
+    background-color: #3183ff;
+    background-image: linear-gradient( transparent, #0751bf);
+    border:none;
+}
+.btn input:hover{
+    background-color: #3183ff;
+    background-image: linear-gradient( transparent, #2e0da4);
+    transition-duration: 0.4s;
+}
+
+
+
